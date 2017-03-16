@@ -1,0 +1,26 @@
+/***************
+3 COLUMNS
+***************/
+
+.columns3 {
+	@include mobile {
+		padding: 20px 10px;
+		width: 100%;
+	}
+	@include tablet {
+		width: 33%;
+		margin: 0 .166%;
+		float: left;
+	}
+}
+
+.columns2 {
+	@include mobile {
+		width: 100%;
+	}
+	@include tablet {
+		width: 49%;
+		margin: 5px .5%;
+		float: left;
+	}
+}

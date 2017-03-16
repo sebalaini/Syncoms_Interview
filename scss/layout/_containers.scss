@@ -1,0 +1,338 @@
+/***************
+GENERAL
+***************/
+
+.intro,
+.campaign,
+.service,
+.testimonial,
+.service {
+	max-width: 1200px;
+	display: inline-block;
+	margin: 45px auto;
+}
+
+.testimonial_external {
+	width: 100%;
+	background: $light_grey;
+	margin: 45px auto;
+}
+
+
+/***************
+CAROUSELS
+***************/
+
+.brands_external {
+	@include mobile {
+		display: inline-block;
+		width: 100%;
+		background: $light_grey;
+		padding-top: 20px;
+		margin-bottom: 45px;
+	}
+	@include tablet {
+		padding-bottom: 30px;
+	}
+}
+
+.brands {
+	display: block;
+	margin-top: 20px;
+	max-width: 1000px;
+}
+
+.owl-carousel {
+	height: 20vh;
+}
+
+.owl-carousel img {
+	width: 128px;
+	height: 128px;
+}
+
+.owl-stage-outer {
+	height: 142px;
+	background: $light_grey;
+}
+
+.owl-nav {
+	display: none;
+}
+
+.owl-dots {
+	padding: 10px 0;
+	background: $light_grey;
+}
+
+
+
+/***************
+INTRO
+***************/
+
+.intro {
+	@include mobile {
+		margin-top: 90px;
+	}
+	@include tablet {
+		width: 100%;
+	}
+}
+
+.intro {
+	h2,
+	h4 {
+		text-align: left;
+		margin-left: 10px;
+		max-width: 420px;
+	}
+	p {
+		margin: 10px;
+		text-align: left;
+		color: $grey;
+		max-width: 320px;
+	}
+}
+
+iframe {
+	@include mobile {
+		margin: 30px auto;
+		width: 95%;
+		height: 100%;
+	}
+	@include tablet {
+		width: 100%;
+		height: 300px;
+		margin: 10px auto;
+	}
+}
+
+/***************
+HR
+***************/
+
+.hr {
+	max-width: 1200px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid $grey;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+
+/***************
+CAMPAIGN
+***************/
+
+svg {
+	float: left;
+	fill: $violet;
+}
+
+.campaign {
+	div.columns3 {
+		@include mobile {
+			width: 94%;
+		}
+		@include tablet {
+			max-width: 30%;
+			margin: 1.66%;
+		}
+	}
+	h3 {
+		text-align: left;
+		margin-top: 90px;
+	}
+	p {
+		color: $grey;
+		text-align: left;
+	}
+}
+
+
+
+/***************
+TESTIMONIAL
+***************/
+
+.testimonial {
+	color: $grey;
+	background: $light_grey;
+	margin: 0 auto;
+}
+
+.guy {
+	@include mobile {
+		max-width: 90%;
+	}
+	@include tablet {
+	display: block;
+	max-width: 35%;
+	float: left;
+	margin-left: 60px;
+	}
+}
+
+.testimonial {
+	h2 {
+		@include mobile {
+			margin: 0 1%;
+		}
+		@include tablet {
+			text-align: left;
+		}
+	}
+
+	h4 {
+		@include mobile {
+			color: $black;
+			margin-top: 5px;
+			}
+	@include tablet {
+		text-align: left;
+		margin-left: 8px;
+		margin-top: 15px;
+		}
+	}
+	p {
+		@include mobile {
+		font-size: .6em;
+		margin-top: -22px;
+			}
+	@include tablet {
+		text-align: left;
+		margin-left: 8px;
+		}
+	}
+}
+
+.quote {
+		@include tablet {
+		width: 52%;
+		float: left;
+		margin-top: 12%;
+		margin-left: 20px;
+	}
+}
+
+
+
+/***************
+PLANS
+***************/
+
+.plans {
+	@include mobile {
+		margin: 45px 0.5%;
+		max-width: 1200px;
+	}
+	@include tablet {
+		display: inline-block;
+	}
+}
+
+.plans h1 {
+	@include mobile {
+		font-size: 2.3em;
+	}
+	@include tablet {
+		margin-top: 12%;
+		margin-bottom: 8px;
+		text-align: left; 
+	}
+}
+
+.plans h1 + p {
+	@include mobile {
+		font-size: 1.25em;
+		max-width: 100%;
+		font-weight: normal;
+	}
+	@include tablet {
+		text-align: left;
+	}
+}
+
+.plans {
+	span {
+		display: block;
+		color: $violet;
+		font-size: 4.5em;
+		font-weight: bold;
+	}
+	p {
+		display: inline-block;
+		color: $grey;
+		font-size: 1em;
+		font-weight: lighter;
+		max-width: 65%;
+	}
+	a {
+		color: $violet;
+		font-weight: lighter;
+		font-size: 0.8em;
+	}
+}
+
+span p.pound {
+	font-weight: normal;
+	font-size: .28em;
+	color: $violet;
+	position: relative;
+	top: -35px;
+	margin-left: 5px;
+}
+
+p.customize {
+	@include mobile {
+		font-size: 1em;
+		margin-bottom: 5px;
+	}
+	@include tablet {
+		display: block;
+		text-align: left;
+		margin-top: -2px;
+	}
+}
+
+.plans a {
+	@include tablet {
+		display: block;
+		text-align: left;
+		margin-top: -15px;
+	}
+}
+
+.free_div {
+	background: $light_grey;	
+}
+
+
+
+/***************
+SERVICE
+***************/
+
+.service_external {
+	@extend .gradient;
+}
+
+.service {
+	display: block;
+	width: 100%;
+	padding: 45px 10px;
+	color: $white;
+}
+
+.service p {
+	margin: 35px auto;
+	max-width: 440px;
+}
+
+

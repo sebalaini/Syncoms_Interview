@@ -1,0 +1,28 @@
+/***************
+HEADER
+***************/
+
+* {
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#wrapper {
+
+	margin: 1px auto;
+	margin-top: -16px;
+}
+
+div {
+	margin: 0 auto;
+}
+
+hr {
+	margin: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

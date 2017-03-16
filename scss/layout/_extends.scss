@@ -1,0 +1,7 @@
+
+.gradient {
+	background-image: -webkit-linear-gradient(to right, $violet , $light_violet);
+	background-image:    -moz-linear-gradient(to right, $violet , $light_violet);
+	background-image:      -o-linear-gradient(to right, $violet , $light_violet);
+	background-image:         linear-gradient(to right, $violet , $light_violet);
+}

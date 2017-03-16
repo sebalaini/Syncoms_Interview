@@ -1,0 +1,138 @@
+/***************
+HEADER
+***************/
+
+header {
+	background: url("../img/background.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 104vh;
+  color: $white;
+}
+
+.banner {
+	max-width: 1200px;
+	height: 90vh;
+}
+
+.company_name {
+	@include mobile {
+		float: left;
+		margin-left: 10px;
+		margin-top: 20px;
+	}
+	@include tablet {
+		margin-top: 15vh;
+	}
+}
+
+.header_logo {
+	@include mobile {
+		width: 25px;
+		height: 25px;
+		float: left;
+		margin-top: 18px;
+		margin-left: 18px;
+	}
+	@include tablet {
+		margin-top: 14.5vh;
+	}
+}
+
+.banner_text {
+	@include mobile {
+		position: relative;
+		top: -5px;
+		margin: 5px;
+	}
+	@include tablet {
+		top: 25vh;
+	}
+}
+
+.banner_text {
+	h1 {
+		@include mobile {
+			margin: 0 auto 10px;
+			display: inline-block;
+		}
+		@include tablet {
+			font-size: 2.3em;
+			margin-left: -70px;
+		}
+	}
+	p {
+		margin: 0 auto;
+		max-width: 480px;
+	}
+}
+
+
+
+/***************
+FORM
+***************/
+
+form {
+	@include mobile {
+		position: relative;
+		top: -10px;
+	}
+	@include tablet {
+		top: 30vh;
+	}
+}
+
+input[type="text"],
+input[type="email"] {
+	@include mobile {
+		height: 40px;
+		width: 250px;
+		margin: 10px auto;
+		border: none;
+		border-radius: 5px;
+		color: $white;
+		background-color: rgba(0, 0, 0, 0.6)
+	}
+	@include tablet {
+		margin: 10px 10px;
+	}
+}
+
+input[type="email"] {
+	@include tablet {
+		width: 400px;
+	}
+}
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: $white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: $white;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: $white;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $white;
+}
+
+
+
+/***************
+ARROW
+***************/
+
+.arrow {
+	width: 40px;
+	height: 50px;
+}
+
+#arrow {
+	fill: $grey;
+}
+

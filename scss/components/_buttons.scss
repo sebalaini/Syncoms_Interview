@@ -1,0 +1,65 @@
+/***************
+BUTTON GENERAL
+***************/
+
+button {
+	background: none;
+	height: 40px;
+	padding: 5px;
+	margin: 15px auto;
+	display: block;
+}
+
+
+
+/***************
+HEADER BUTTON
+***************/
+
+#header_btn {
+	@extend .gradient;
+	display: block;
+	border: none;
+	height: 40px;
+	padding: 5px;
+	display: inline-block;
+	margin: 15px 10px;
+}
+
+
+
+/***************
+PLAN BUTTON
+***************/
+
+.free,
+.basic {
+	border-radius: 20px;
+	width: 180px;
+}
+
+.free {
+	@extend .gradient;
+	color: $white;
+	border: none;
+}
+
+.basic {
+	color: $violet;
+	background: $white;
+	border: 2px solid $violet;
+}
+
+
+
+/***************
+SERVICE BUTTON
+***************/
+
+.action {
+	color: $white;
+	border-radius: 5px;
+	border: 2px solid $white;
+	width: 180px;
+}
+
