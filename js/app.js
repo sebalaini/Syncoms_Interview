@@ -54,15 +54,13 @@ $('.owl-carousel').owlCarousel({
       items:7
       }
     }
-})
+});
 
 // execute owlcarousel
-$(".owl-carousel").owlCarousel()
+$(".owl-carousel").owlCarousel();
 
 
 }); // end ready 
-
-
 
 
 
