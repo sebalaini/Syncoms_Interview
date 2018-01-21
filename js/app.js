@@ -41,7 +41,6 @@ CAROUSEL
 // add responsive
 $('.owl-carousel').owlCarousel({
   loop:true,
-  lazyLoad:false,
   margin:10,
   nav:true,
   responsive:{
