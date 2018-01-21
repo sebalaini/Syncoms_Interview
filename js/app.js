@@ -38,7 +38,7 @@ var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+
 CAROUSEL
 ***************/
 
-// add responsive 
+// add responsive
 $('.owl-carousel').owlCarousel({
   loop:true,
   margin:10,
@@ -60,7 +60,4 @@ $('.owl-carousel').owlCarousel({
 $(".owl-carousel").owlCarousel();
 
 
-}); // end ready 
-
-
-
+}); // end ready
