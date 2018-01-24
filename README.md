@@ -1,7 +1,3 @@
 # Syncoms_Interview
 
-A make this website for the Syncoms interview for the role of junior front-end developer
-
-# Know Issue
-
-The live page doesn't work due to problem with owl carousel files, the page work perfectly from local but there is a conflict with GitHub Pages and the js file of owl carousel.
+I made this website for the interview with Syncoms, they wanted to check my skills and understand if I could fit for the role of junior front-end developer
